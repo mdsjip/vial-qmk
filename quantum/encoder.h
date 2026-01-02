@@ -48,6 +48,7 @@ bool encoder_dequeue_event(uint8_t *index, bool *clockwise);
 
 bool encoder_update_kb(uint8_t index, bool clockwise);
 bool encoder_update_user(uint8_t index, bool clockwise);
+void encoder_exec_mapping(uint8_t index, bool clockwise);
 
 #    ifdef SPLIT_KEYBOARD
 
